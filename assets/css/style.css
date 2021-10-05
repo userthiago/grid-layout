@@ -1,0 +1,25 @@
+.app {
+    display: grid;  
+    grid-template-areas: 
+        'header'
+        'content'
+        'footer';
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto;
+
+    background: #f1f1f1;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    background-color: #00cc99;
+}
+ 
+.conteudo {
+    background-color: #ff8080;
+}
+
+.rodape {
+    background-color: #0099ff;
+}
